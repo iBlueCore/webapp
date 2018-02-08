@@ -1,0 +1,7 @@
+Popis: Vypracovana uloha
+
+Zadanie: https://bitbucket.org/bodev/zadanie-api
+
+Vypracoval: Branislav Gonda
+
+Uloha: Webapp - bar finder. Aplikacia na vyhladavanie barov podla lokality.

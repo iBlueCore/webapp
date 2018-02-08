@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web app</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web app">
+    <meta name="keywords" content="Bar, Restaurant, Food, Drink">
+    <meta name="author" content="bxCore">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/webapp.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="search-box-wrap">
+            <div class="search-box">
+                <h1 class="b-gap">What about some drink after work?</h1>
+                <form action="get">
+                    <div class="search-box-input m-gap">
+                        <label class="s-gap">Drink or food</label>
+                        <input type="text" class="sb-input require" placeholder="Select one">
+                        <span class="alert-message">Choose one option</span>
+                    </div>
+                    <div class="search-box-select hide m-gap">
+                        <ul>
+                            <li><a href="#">Bar</a></li>
+                            <!--    
+                            <li><a href="#">Beer</a></li>
+                            <li><a href="#">Wine</a></li>
+                            <li><a href="#">Pizza</a></li>
+                            <li><a href="#">Restaurant</a></li>
+                            -->
+                        </ul>
+                    </div>
+                    <div class="search-box-location m-gap">
+                        <label class="s-gap">Place location (city)</label>
+                        <input type="text" class="place-location require" placeholder="Any location">
+                        <span class="alert-message">Enter city name <br> e.g. "nitra, berlin, toronto.."</span>
+                    </div>
+                    <div class="search-box-range b-gap">
+                        <label class="s-gap">Range of search 0 - 2000 (meters)</label>
+                        <input type="text" class="sb-range-input req m-gap" value="1000">
+                        <span class="alert-message">Only numbers allowed</span>
+                        <input type="range" class="sb-range" min="0" max="2000" step="1">
+                    </div>
+                    <div class="search-box-submit">
+                        <input type="submit" class="sb-submit" value="Search">
+                    </div>
+                </form>
+            </div>
+            <div class="data-list"></div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src=" js/webapp.js "></script>
+</body>
+
+</html>
